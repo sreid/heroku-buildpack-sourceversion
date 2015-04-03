@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Syntax bin/compile <build-dir> <cache-dir>
+
+BUILD_DIR=$1
+CACHE_DIR=$2
+
+echo "=====> Writing out SOURCE_VERSION to .source_version ($SOURCE_VERSION)"
+echo $SOURCE_VERSION > $BUILD_DIR/.source_version
